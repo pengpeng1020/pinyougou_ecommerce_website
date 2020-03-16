@@ -1,0 +1,150 @@
+.w {
+ width: 1200px;
+ margin: 0 auto;
+}
+header {
+ position: relative;
+ height: 81px;
+ border-bottom: 2px solid #b1191a;
+}
+.logo {
+position: absolute;
+top: 18px;
+height: 56px;
+}
+.logo a {
+ display: block;
+ width: 177px;
+ height: 56px;
+ background: url(../images/logo2.png) no-repeat;
+}
+.registerarea {
+ position: relative;
+ height: 521px;
+ border: 1px solid #ececec;
+ margin-top: 18px; 
+}
+.register {
+ height: 41px;
+ background-color: #ececec;
+ padding: 0 11px;
+}
+.register .reg {
+ float: left;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 41px;
+}
+.register .enter {
+ float: right;
+ font-size: 14px;
+ line-height: 41px;
+ font-weight: 400;
+}
+.register .enter em {
+ color: #c81623;
+}
+.reg-form {
+ width: 555px;
+ height: 395px;
+ position: absolute;
+ top: 77px;
+ left: 314px;
+}
+.reg-form form ul li {
+ margin-top: 10px;
+}
+.reg-form form ul li .inp {
+ width: 240px;
+ height: 35px;
+ border: 1px solid #999;
+}
+.reg-form form ul li label {
+ display: inline-block;
+ width: 89px;
+ height: 35px;
+ text-align: right; 
+}
+ .error {
+ color: #c81623;
+}
+.error_icon,
+.success_icon {
+ display: inline-block;
+ width: 20px;
+ height: 20px;
+ background: url(../images/error.png) no-repeat;
+ vertical-align: middle;
+ margin: -2px 4px 0 8px;
+}
+.success {
+ color: #40b83f;
+}
+.success_icon {
+ background: url(../images/success.png) no-repeat;
+}
+.safe {
+ margin-left: 168px;
+ margin-top: 11px;
+ margin-bottom: 20px;
+}
+.safe em {
+ margin-right: 2px
+}
+.ruo {
+ margin-left: 10px;
+}
+.ruo,
+.zhong,
+.qiang {
+ display: inline-block;
+ width: 34px;
+ height: 13px;
+ line-height: 13px;
+ text-align: center;
+ color: #fff;
+ font-size: 12px;
+}
+.ruo {
+ background-color: #de1111;
+}
+.zhong {
+ background-color: #40b83f;
+}
+.qiang {
+ background-color: #f79100;
+}
+.reg-form .agree {
+ padding-left: 86px;
+ margin-top: 43px;
+}
+.agree input {
+ width: 15px;
+ height: 15px;
+ vertical-align: middle;
+}
+.agree span {
+ padding: 0 12px;
+}
+.agree a {
+ color: #1ba1e6;
+}
+.finish input {
+ width: 200px;
+ height: 34px;
+ background-color: #c81623;
+color: #fff;
+font-size: 14px;
+margin-left: 97px;
+margin-top: 30px;
+}
+.mod_copyright {
+ text-align: center;
+ padding-top: 20px;
+}
+.links {
+ margin-bottom: 15px;
+}
+.copyright {
+ line-height: 20px;
+}

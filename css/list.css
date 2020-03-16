@@ -1,0 +1,107 @@
+/* 列表页所专有的css */
+
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+ font-family: 'icomoon';
+ src:  url('../fonts/icomoon.eot?ulmp22');
+ src:  url('../fonts/icomoon.eot?ulmp22#iefix') format('embedded-opentype'),
+   url('../fonts/icomoon.ttf?ulmp22') format('truetype'),
+   url('../fonts/icomoon.woff?ulmp22') format('woff'),
+   url('../fonts/icomoon.svg?ulmp22#icomoon') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-display: block;
+}
+.miaosha {
+ position: absolute;
+ top: 40px;
+ left: 185px;
+ border-left: 1px solid #b1191a;
+ padding: 3px 0 0 13px;
+}
+.nav {
+ overflow: hidden;
+}
+.sk_list ul li {
+float: left; 
+padding: 14px 28px;
+font-size: 16px;
+font-weight: 700;
+}
+.sk_cont ul li {
+ float: left;
+ padding: 14px 23px;
+ font-size: 14px;
+ color: #666;
+}
+.sk_cont ul li:last-child a::after {
+ content: "\e907";
+ font-family: 'icomoon';
+}
+.sk_content .sk_bd ul {
+ overflow: hidden;
+}
+.sk_content .sk_bd ul li {
+ position: relative;
+ float: left;
+ width: 288px;
+ height: 458px;
+ margin: 23px 12px 0 0; 
+ border: 1px solid transparent;
+}
+.sk_content .sk_bd ul li:hover {
+ border: 1px solid #b1191a;
+}
+.sk_content .sk_bd ul li .description {
+ margin: 0 12px 5px 12px;
+ font-size: 14px;
+}
+.sk_content .sk_bd ul li .price {
+ padding: 18px 15px 16px 15px;
+ font-size: 22px;
+}
+.sk_content .sk_bd ul li i {
+ font-size: 14px;
+ text-decoration: line-through;
+}
+.sk_content .sk_bd ul li .yishou {
+ font-size: 14px;
+ margin-left: 12px;
+}
+.sk_content .sk_bd ul li .shengyu {
+ float: right;
+ font-size: 14px;
+ padding-right: 13px;
+}
+.sold {
+ position: absolute;
+ bottom: 72px;
+ left: 72px;
+ width: 130px;
+ height: 11px;
+ background-color: #b1191a;
+ border-radius: 5px;
+}
+.unsold {
+ float: right;
+ width: 17px;
+ height: 9px;
+ background-color: #fff;
+ margin-right: 1px;
+ margin-top: 1px;
+ margin-bottom: 1px;
+ border-radius: 0 4px 4px 0;
+}
+.lijiqianggou {
+ position: absolute;
+ bottom: 0;
+ height: 49px;
+ width: 100%;
+ background-color: #b1191a;
+ text-align: center;
+}
+.lijiqianggou p a {
+ font-size: 20px;
+ color: #fff;
+ line-height: 49px;
+}

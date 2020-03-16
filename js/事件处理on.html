@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src='jquery.min.js'></script>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .current {
+            background-color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <script>
+        $(function () {
+            //on可以绑定一个或多个事件
+            $(".div1").on({
+                mouseenter: function () {
+                    $(this).css("background", "skyblue");
+                },
+                click: function () {
+                    $(this).css("background", "purple");
+                },
+                mouseleave: function () {
+                    $(this).css("background", "blue");
+                }
+            })
+            //多个事件中间用空格隔开
+            $(".div2").on("mouseenter mouseleave", function () {
+                $(this).toggleClass("current");
+            })
+            //
+        })
+    </script>
+</body>
+
+</html>
